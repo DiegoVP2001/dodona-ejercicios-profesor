@@ -1,8 +1,19 @@
 # El micro a Talagante
 
-Valentina vive en La Islita y toma todos los días el micro a Talagante. El micro pasa a las 7:30 AM y no espera a nadie. Su hora de llegada al paradero se registra en minutos desde la medianoche — por ejemplo, 450 equivale a las 7:30 AM.
+Valentina toma el micro a Talagante que sale a las 7:30 AM. La hora de llegada al paradero se expresa en minutos desde la medianoche — por ejemplo, 450 representa las 7:30.
 
-Lee la hora de llegada de Valentina (en minutos). Si llegó a las 7:30 o antes (450 minutos o menos), alcanzó el micro. Si llegó después, se lo perdió. No uses texto de prompt en `input()`.
+Escribe un programa que lea un número entero (los minutos de llegada al paradero).
 
-- Si alcanzó el micro: imprime `¡Alcanzaste el micro! Buen viaje a Talagante.`
-- Si se lo perdió: imprime `El micro ya pasó. Próxima salida en una hora.`
+Si llegó a tiempo (450 o menos), imprime:
+
+```text
+¡Alcanzaste el micro! Buen viaje a Talagante.
+```
+
+Si llegó tarde (más de 450), imprime:
+
+```text
+El micro ya pasó. Próxima salida en una hora.
+```
+
+No uses texto de prompt en `input()`.

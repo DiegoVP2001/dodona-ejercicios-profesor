@@ -1,7 +1,11 @@
 # Prueba — ¡Hola, Dodona!
 
-Este es un ejercicio de prueba para conocer cómo funciona Dodona.
+Este ejercicio de prueba te ayuda a conocer cómo funciona Dodona.
 
-Lee tu nombre e imprime un saludo personalizado. No uses texto de prompt en `input()`.
+Escribe un programa que lea un nombre e imprima exactamente:
 
-La corrección es automática: si tu salida es exactamente igual a la esperada, verás una palomita verde. Si no, verás el error y podrás corregir.
+```text
+¡Hola, <nombre>!
+```
+
+No uses texto de prompt en `input()`. Si tu salida coincide con la esperada, verás una palomita verde.
