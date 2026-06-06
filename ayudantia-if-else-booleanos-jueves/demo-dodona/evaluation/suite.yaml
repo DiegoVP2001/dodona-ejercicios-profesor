@@ -1,0 +1,14 @@
+- tab: "Casos visibles"
+  contexts:
+    - testcases:
+        - stdin: "Valentina\n"
+          stdout: "¡Hola, Valentina!\n"
+- tab: "Casos ocultos"
+  hidden: true
+  contexts:
+    - testcases:
+        - stdin: "Sofía\n"
+          stdout: "¡Hola, Sofía!\n"
+    - testcases:
+        - stdin: "Diego\n"
+          stdout: "¡Hola, Diego!\n"

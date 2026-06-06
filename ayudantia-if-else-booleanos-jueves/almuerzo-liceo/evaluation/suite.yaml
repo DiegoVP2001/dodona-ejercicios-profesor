@@ -1,0 +1,17 @@
+- tab: "Casos visibles"
+  contexts:
+    - testcases:
+        - stdin: "si\nno\n"
+          stdout: "Almuerzo subvencionado: $0\n"
+- tab: "Casos ocultos"
+  hidden: true
+  contexts:
+    - testcases:
+        - stdin: "no\nsi\n"
+          stdout: "Almuerzo subvencionado: $0\n"
+    - testcases:
+        - stdin: "si\nsi\n"
+          stdout: "Almuerzo subvencionado: $0\n"
+    - testcases:
+        - stdin: "no\nno\n"
+          stdout: "Almuerzo valor normal: $1.500\n"

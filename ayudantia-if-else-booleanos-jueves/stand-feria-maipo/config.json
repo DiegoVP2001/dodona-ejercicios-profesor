@@ -1,0 +1,14 @@
+{
+  "description": {
+    "names": {
+      "es": "Stand en la Feria de Isla de Maipo",
+      "en": "Stand en la Feria de Isla de Maipo"
+    }
+  },
+  "evaluation": {
+    "handler": "tested",
+    "test_suite": "suite.yaml"
+  },
+  "programming_language": "python",
+  "access": "private"
+}

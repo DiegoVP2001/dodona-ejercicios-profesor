@@ -1,0 +1,17 @@
+- tab: "Casos visibles"
+  contexts:
+    - testcases:
+        - stdin: "1200\n"
+          stdout: "¿Clasificas para el torneo? True\n"
+- tab: "Casos ocultos"
+  hidden: true
+  contexts:
+    - testcases:
+        - stdin: "999\n"
+          stdout: "¿Clasificas para el torneo? False\n"
+    - testcases:
+        - stdin: "1000\n"
+          stdout: "¿Clasificas para el torneo? True\n"
+    - testcases:
+        - stdin: "50\n"
+          stdout: "¿Clasificas para el torneo? False\n"

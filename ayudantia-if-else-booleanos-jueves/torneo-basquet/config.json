@@ -1,0 +1,14 @@
+{
+  "description": {
+    "names": {
+      "es": "Torneo de básquetbol del Mario Bertero",
+      "en": "Torneo de básquetbol del Mario Bertero"
+    }
+  },
+  "evaluation": {
+    "handler": "tested",
+    "test_suite": "suite.yaml"
+  },
+  "programming_language": "python",
+  "access": "private"
+}

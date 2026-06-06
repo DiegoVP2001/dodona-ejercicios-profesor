@@ -1,0 +1,20 @@
+- tab: "Casos visibles"
+  contexts:
+    - testcases:
+        - stdin: "440\n"
+          stdout: "¡Alcanzaste el micro! Buen viaje a Talagante.\n"
+- tab: "Casos ocultos"
+  hidden: true
+  contexts:
+    - testcases:
+        - stdin: "450\n"
+          stdout: "¡Alcanzaste el micro! Buen viaje a Talagante.\n"
+    - testcases:
+        - stdin: "451\n"
+          stdout: "El micro ya pasó. Próxima salida en una hora.\n"
+    - testcases:
+        - stdin: "500\n"
+          stdout: "El micro ya pasó. Próxima salida en una hora.\n"
+    - testcases:
+        - stdin: "0\n"
+          stdout: "¡Alcanzaste el micro! Buen viaje a Talagante.\n"

@@ -1,0 +1,20 @@
+- tab: "Casos visibles"
+  contexts:
+    - testcases:
+        - stdin: "si\n3\n"
+          stdout: "¿Puede inscribir su stand? True\n"
+- tab: "Casos ocultos"
+  hidden: true
+  contexts:
+    - testcases:
+        - stdin: "si\n0\n"
+          stdout: "¿Puede inscribir su stand? False\n"
+    - testcases:
+        - stdin: "no\n5\n"
+          stdout: "¿Puede inscribir su stand? False\n"
+    - testcases:
+        - stdin: "no\n0\n"
+          stdout: "¿Puede inscribir su stand? False\n"
+    - testcases:
+        - stdin: "si\n1\n"
+          stdout: "¿Puede inscribir su stand? True\n"
