@@ -1,0 +1,10 @@
+{
+  "access": "private",
+  "programming_language": "python",
+  "evaluation": {
+    "handler": "tested",
+    "time_limit": 15,
+    "memory_limit": 100000000
+  },
+  "contact": "Diego <diego010427@gmail.com>"
+}
