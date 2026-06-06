@@ -1,0 +1,20 @@
+- tab: "Casos visibles"
+  contexts:
+    - testcases:
+        - stdin: "Valen\n12\n250\n"
+          stdout: "Jugador: Valen\nNivel final: 14\n"
+    - testcases:
+        - stdin: "Tomi\n5\n80\n"
+          stdout: "Jugador: Tomi\nNivel final: 5\n"
+- tab: "Casos ocultos"
+  hidden: true
+  contexts:
+    - testcases:
+        - stdin: "Cata\n3\n100\n"
+          stdout: "Jugador: Cata\nNivel final: 4\n"
+    - testcases:
+        - stdin: "Nico\n9\n0\n"
+          stdout: "Jugador: Nico\nNivel final: 9\n"
+    - testcases:
+        - stdin: "Sofi\n1\n999\n"
+          stdout: "Jugador: Sofi\nNivel final: 10\n"

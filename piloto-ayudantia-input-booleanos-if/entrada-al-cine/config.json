@@ -1,0 +1,14 @@
+{
+  "description": {
+    "names": {
+      "es": "Entrada al cine",
+      "en": "Entrada al cine"
+    }
+  },
+  "evaluation": {
+    "handler": "tested",
+    "test_suite": "suite.yaml"
+  },
+  "programming_language": "python",
+  "access": "private"
+}

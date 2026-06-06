@@ -1,0 +1,20 @@
+- tab: "Casos visibles"
+  contexts:
+    - testcases:
+        - stdin: "35000\n20000\n"
+          stdout: "Alcanza para comprar? True\nQueda saldo positivo? True\nSaldo exacto al precio? False\n"
+    - testcases:
+        - stdin: "12000\n18000\n"
+          stdout: "Alcanza para comprar? False\nQueda saldo positivo? False\nSaldo exacto al precio? False\n"
+- tab: "Casos ocultos"
+  hidden: true
+  contexts:
+    - testcases:
+        - stdin: "15000\n15000\n"
+          stdout: "Alcanza para comprar? True\nQueda saldo positivo? False\nSaldo exacto al precio? True\n"
+    - testcases:
+        - stdin: "0\n5000\n"
+          stdout: "Alcanza para comprar? False\nQueda saldo positivo? False\nSaldo exacto al precio? False\n"
+    - testcases:
+        - stdin: "60000\n95000\n"
+          stdout: "Alcanza para comprar? False\nQueda saldo positivo? False\nSaldo exacto al precio? False\n"

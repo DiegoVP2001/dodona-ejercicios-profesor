@@ -1,0 +1,14 @@
+{
+  "description": {
+    "names": {
+      "es": "Puntos de partida",
+      "en": "Puntos de partida"
+    }
+  },
+  "evaluation": {
+    "handler": "tested",
+    "test_suite": "suite.yaml"
+  },
+  "programming_language": "python",
+  "access": "private"
+}

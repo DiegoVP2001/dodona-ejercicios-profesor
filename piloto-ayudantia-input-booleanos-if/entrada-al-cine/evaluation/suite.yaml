@@ -1,0 +1,20 @@
+- tab: "Casos visibles"
+  contexts:
+    - testcases:
+        - stdin: "10000\n"
+          stdout: "Puedes entrar al cine.\n"
+    - testcases:
+        - stdin: "7500\n"
+          stdout: "No alcanza para la entrada.\n"
+- tab: "Casos ocultos"
+  hidden: true
+  contexts:
+    - testcases:
+        - stdin: "8000\n"
+          stdout: "Puedes entrar al cine.\n"
+    - testcases:
+        - stdin: "0\n"
+          stdout: "No alcanza para la entrada.\n"
+    - testcases:
+        - stdin: "50000\n"
+          stdout: "Puedes entrar al cine.\n"
