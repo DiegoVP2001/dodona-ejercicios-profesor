@@ -1,0 +1,17 @@
+- tab: "Casos visibles"
+  contexts:
+    - testcases:
+        - stdin: "5000\nsi\n"
+          stdout: "¿Puedes transferir? True\n"
+- tab: "Casos ocultos"
+  hidden: true
+  contexts:
+    - testcases:
+        - stdin: "5000\nno\n"
+          stdout: "¿Puedes transferir? False\n"
+    - testcases:
+        - stdin: "4999\nsi\n"
+          stdout: "¿Puedes transferir? False\n"
+    - testcases:
+        - stdin: "10000\nsi\n"
+          stdout: "¿Puedes transferir? True\n"

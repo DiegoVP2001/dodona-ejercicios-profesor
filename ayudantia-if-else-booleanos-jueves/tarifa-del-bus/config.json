@@ -1,0 +1,14 @@
+{
+  "description": {
+    "names": {
+      "es": "Tarifa del bus",
+      "en": "Tarifa del bus"
+    }
+  },
+  "evaluation": {
+    "handler": "tested",
+    "test_suite": "suite.yaml"
+  },
+  "programming_language": "python",
+  "access": "private"
+}

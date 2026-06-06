@@ -1,0 +1,17 @@
+- tab: "Casos visibles"
+  contexts:
+    - testcases:
+        - stdin: "85\n90\n"
+          stdout: "Cumples los requisitos. ¡Puedes postular a la beca!\n"
+- tab: "Casos ocultos"
+  hidden: true
+  contexts:
+    - testcases:
+        - stdin: "75\n90\n"
+          stdout: "No cumples los requisitos. Revisa tu promedio o asistencia.\n"
+    - testcases:
+        - stdin: "85\n80\n"
+          stdout: "No cumples los requisitos. Revisa tu promedio o asistencia.\n"
+    - testcases:
+        - stdin: "80\n85\n"
+          stdout: "Cumples los requisitos. ¡Puedes postular a la beca!\n"

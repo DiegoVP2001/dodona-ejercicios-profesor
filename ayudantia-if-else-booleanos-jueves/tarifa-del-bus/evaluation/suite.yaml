@@ -1,0 +1,17 @@
+- tab: "Casos visibles"
+  contexts:
+    - testcases:
+        - stdin: "si\nsi\n"
+          stdout: "Tarifa a pagar: $490\n"
+- tab: "Casos ocultos"
+  hidden: true
+  contexts:
+    - testcases:
+        - stdin: "no\nsi\n"
+          stdout: "Tarifa a pagar: $810\n"
+    - testcases:
+        - stdin: "si\nno\n"
+          stdout: "Tarifa a pagar: $810\n"
+    - testcases:
+        - stdin: "no\nno\n"
+          stdout: "Tarifa a pagar: $810\n"

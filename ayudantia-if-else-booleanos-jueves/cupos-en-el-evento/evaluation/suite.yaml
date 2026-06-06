@@ -1,0 +1,17 @@
+- tab: "Casos visibles"
+  contexts:
+    - testcases:
+        - stdin: "150\n200\n"
+          stdout: "¡Entrada confirmada! Nos vemos en el evento.\n"
+- tab: "Casos ocultos"
+  hidden: true
+  contexts:
+    - testcases:
+        - stdin: "200\n200\n"
+          stdout: "Sin entradas disponibles. Quedaste en lista de espera.\n"
+    - testcases:
+        - stdin: "201\n200\n"
+          stdout: "Sin entradas disponibles. Quedaste en lista de espera.\n"
+    - testcases:
+        - stdin: "0\n100\n"
+          stdout: "¡Entrada confirmada! Nos vemos en el evento.\n"

@@ -1,0 +1,14 @@
+{
+  "description": {
+    "names": {
+      "es": "Cupos en el evento",
+      "en": "Cupos en el evento"
+    }
+  },
+  "evaluation": {
+    "handler": "tested",
+    "test_suite": "suite.yaml"
+  },
+  "programming_language": "python",
+  "access": "private"
+}
