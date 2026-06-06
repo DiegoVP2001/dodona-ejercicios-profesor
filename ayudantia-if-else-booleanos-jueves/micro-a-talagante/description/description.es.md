@@ -1,19 +1,17 @@
 # El micro a Talagante
 
-Valentina toma el micro a Talagante que sale a las 7:30 AM. La hora de llegada al paradero se expresa en minutos desde la medianoche — por ejemplo, 450 representa las 7:30.
+Diego necesita tomar el micro a Talagante, que sale puntualmente a las 7:30 de la mañana. Para registrar la hora de llegada al paradero se usa un número entero que representa cuántos minutos han pasado desde la medianoche. Por ejemplo, si llegó a las 7:20, el número es 440. Si llegó a las 7:30 exactas, el número es 450. Si llegó a las 7:31, el número es 451.
 
-Escribe un programa que lea un número entero (los minutos de llegada al paradero).
+Tu programa pedirá con `input()` un dato:
 
-Si llegó a tiempo (450 o menos), imprime:
+1. Los minutos de llegada al paradero.
+   Respuestas posibles: cualquier número entero (ejemplo: `440`).
 
-```text
-¡Alcanzaste el micro! Buen viaje a Talagante.
-```
+Según lo que respondió el usuario, tu programa debe imprimir:
 
-Si llegó tarde (más de 450), imprime:
+| Situación | Lo que imprime tu programa |
+|---|---|
+| Llegó a tiempo | `¡Alcanzaste el micro! Buen viaje a Talagante.` |
+| Llegó tarde | `El micro ya pasó. Próxima salida en una hora.` |
 
-```text
-El micro ya pasó. Próxima salida en una hora.
-```
-
-No uses texto de prompt en `input()`.
+No escribas texto dentro del `input()`, o sea déjalo vacío.

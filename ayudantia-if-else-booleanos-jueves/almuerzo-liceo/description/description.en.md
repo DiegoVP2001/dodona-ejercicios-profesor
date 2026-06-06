@@ -1,22 +1,20 @@
 # Almuerzo en el liceo
 
-La cafetería del liceo cobra almuerzo subvencionado ($0) a estudiantes de 4to medio o a quienes tengan voucher del DAE. Los demás pagan el precio normal.
+En un liceo, la cafetería tiene una política simple: cualquier estudiante de 4to medio almuerza gratis. También almuerza gratis quien tenga un ticket especial, aunque no sea de 4to medio. Y si alguien cumple las dos condiciones a la vez, igual paga $0. Solo quien no cumpla ninguna de las dos condiciones paga el precio normal de $1.500.
 
-Escribe un programa que lea dos datos, en este orden:
+Tu programa pedirá con `input()` dos datos en este orden:
 
-1. Si el estudiante es de 4to medio: `si` o `no`.
-2. Si tiene voucher del DAE: `si` o `no`.
+1. Si el estudiante es de 4to medio.
+   Respuestas posibles: `si` o `no`.
 
-Si cumple al menos una condición, imprime:
+2. Si tiene un ticket especial.
+   Respuestas posibles: `si` o `no`.
 
-```text
-Almuerzo subvencionado: $0
-```
+Según lo que respondió el usuario, tu programa debe imprimir:
 
-Si no cumple ninguna, imprime:
+| Situación | Lo que imprime tu programa |
+|---|---|
+| Al menos una respuesta es `si` | `Almuerzo subvencionado: $0` |
+| Las dos respuestas son `no` | `Almuerzo valor normal: $1.500` |
 
-```text
-Almuerzo valor normal: $1.500
-```
-
-No uses texto de prompt en `input()`.
+No escribas texto dentro del `input()`, o sea déjalo vacío.

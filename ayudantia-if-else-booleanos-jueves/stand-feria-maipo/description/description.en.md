@@ -1,16 +1,20 @@
 # Stand en la Feria de Isla de Maipo
 
-La Feria de Emprendedores de Isla de Maipo permite inscribir un stand solo si el emprendedor tiene su ficha municipal al día y quedan puestos disponibles.
+La Feria de Emprendedores de Isla de Maipo permite inscribir un stand solo si el emprendedor tiene su ficha municipal al día y quedan puestos disponibles. Si falta alguna de las dos condiciones, la inscripción no es posible.
 
-Escribe un programa que lea dos datos, en este orden:
+Tu programa pedirá con `input()` dos datos en este orden:
 
-1. Si la ficha está al día: `si` o `no`.
-2. Cuántos puestos quedan disponibles, como número entero.
+1. Si la ficha municipal está al día.
+   Respuestas posibles: `si` o `no`.
 
-El programa debe imprimir exactamente:
+2. Cuántos puestos quedan disponibles.
+   Respuestas posibles: cualquier número entero (ejemplo: `3`).
 
-```text
-¿Puede inscribir su stand? <True o False>
-```
+Según lo que respondió el usuario, tu programa debe imprimir:
 
-No uses texto de prompt en `input()`.
+| Situación | Lo que imprime tu programa |
+|---|---|
+| Puede inscribir su stand | `¿Puede inscribir su stand? True` |
+| No puede inscribir su stand | `¿Puede inscribir su stand? False` |
+
+No escribas texto dentro del `input()`, o sea déjalo vacío.

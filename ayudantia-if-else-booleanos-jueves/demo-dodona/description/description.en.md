@@ -1,11 +1,17 @@
 # Prueba — ¡Hola, Dodona!
 
-Este ejercicio de prueba te ayuda a conocer cómo funciona Dodona.
+Este ejercicio te ayuda a conocer cómo funciona Dodona antes de entrar a los desafíos reales.
 
-Escribe un programa que lea un nombre e imprima exactamente:
+Tu programa pedirá con `input()` un dato:
+
+1. Un nombre cualquiera.
+   Ejemplo: `Valentina`.
+
+Luego debe imprimir exactamente:
 
 ```text
-¡Hola, <nombre>!
+¡Hola, Valentina!
 ```
 
-No uses texto de prompt en `input()`. Si tu salida coincide con la esperada, verás una palomita verde.
+Si tu salida coincide con la esperada, verás un ticket verde ✓.
+No escribas texto dentro del `input()`, o sea déjalo vacío.
