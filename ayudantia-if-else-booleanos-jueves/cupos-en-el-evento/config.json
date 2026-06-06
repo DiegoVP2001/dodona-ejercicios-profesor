@@ -10,5 +10,9 @@
     "test_suite": "suite.yaml"
   },
   "programming_language": "python",
-  "access": "private"
+  "access": "private",
+  "internals": {
+    "token": "v6Sysx5nGtnNzEaRg5Et63zrTyBYhfWYzSdc6Fz2UcXpWTz-zkAj9XGc65S7ECrY",
+    "_info": "These fields are used for internal bookkeeping in Dodona, please do not change them."
+  }
 }
